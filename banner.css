@@ -1,0 +1,37 @@
+.banner {
+	background-color: #1a1614;
+	background-image:
+		linear-gradient(160deg, rgba(18, 14, 12, 0.88) 0%, rgba(40, 32, 30, 0.55) 45%, rgba(22, 18, 16, 0.82) 100%),
+		linear-gradient(90deg, rgba(139, 105, 20, 0.12) 0%, transparent 40%),
+		url("https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=2000&q=80");
+	color: #faf8f5;
+	padding: 168px 0px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
+}
+
+.banner h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: clamp(3rem, 7vw, 4.75rem);
+	font-weight: 600;
+	margin-bottom: 18px;
+	letter-spacing: 0.02em;
+	line-height: 1.08;
+}
+
+.banner h2 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-weight: 300;
+	font-style: normal;
+	color: rgba(250, 248, 245, 0.88);
+	margin-bottom: 44px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	max-width: 38rem;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.65;
+}
